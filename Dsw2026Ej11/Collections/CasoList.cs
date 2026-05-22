@@ -20,7 +20,7 @@ public class CasoList
     {
         return alumnos;
     }
-    public Alumno? BuscarAlumno(string nombre)
+    public Alumno? BuscarAlumnoPorNombre(string nombre)
     {
         return alumnos.Find(a => a.Nombre == nombre);
     }

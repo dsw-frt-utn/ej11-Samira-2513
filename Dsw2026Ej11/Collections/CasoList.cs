@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Dsw2026Ej11.Domain;
+﻿using Dsw2026Ej11.Domain;
 namespace Dsw2026Ej11.Collections;
 
 //Crear un campo que represente una lista de alumnos (List<>)

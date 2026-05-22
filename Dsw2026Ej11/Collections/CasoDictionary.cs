@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Dsw2026Ej11.Domain;
+﻿using Dsw2026Ej11.Domain;
 namespace Dsw2026Ej11.Collections;
 
 //Crear un diccionario donde la clave sea el legajo y el valor el alumno
@@ -18,7 +16,7 @@ public class CasoDictionary
         //alumnos[legajo] = alumno; //Otra forma de agregar un alumno al diccionario
     }
 
-    public Alumno? BuscarAlumno(int legajo)
+    public Alumno? BuscarAlumnoPorClave(int legajo)
     {
         return alumnos.GetValueOrDefault(legajo);
     }
